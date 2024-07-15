@@ -4,7 +4,14 @@
 The aim of this project is to develop a Convolutional Neural Network (CNN) model to classify skin lesions into different categories based on the provided images. This helps in early detection and treatment of skin cancer, which can be crucial in saving lives.
 
 ## Dataset
-This project utilizes the [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) dataset, which contains a collection of dermatology images used to train models for skin cancer detection.
+This project utilizes the [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) dataset, which contains a collection of dermatology images used to train models for skin cancer detection. The images are categorized into 7 different types of skin lesions:
+Melanocytic nevi (nv)
+Melanoma (mel)
+Benign keratosis-like lesions (bkl)
+Basal cell carcinoma (bcc)
+Actinic keratoses and intraepithelial carcinoma / Bowen's disease (akiec)
+Vascular lesions (vas)
+Dermatofibroma (df)
 
 ## Model Architecture
 The model used in this project is a simple CNN consisting of the following layers:
